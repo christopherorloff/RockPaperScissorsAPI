@@ -14,7 +14,7 @@ namespace RockPaperScissorsAPI.Modules.Game
         public IEndpointRouteBuilder MapEndpoints(IEndpointRouteBuilder endpoints)
         {
             endpoints.MapPost("/games", CreateGame);
-            endpoints.MapGet("/games/{id}" GetGame);
+            endpoints.MapGet("/games/{id}", GetGame);
             endpoints.MapPost("/games/{id}/join", JoinGame);
             endpoints.MapPost("/games/{id}/move", MakeMove);
 
