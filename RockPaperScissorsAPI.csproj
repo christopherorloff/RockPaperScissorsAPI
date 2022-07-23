@@ -7,14 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidator" Version="2.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Endpoints\" />
-    <Folder Include="GameLogic\" />
-    <Folder Include="Services\" />
+    <PackageReference Include="ValueOf" Version="2.0.31" />
   </ItemGroup>
 
 </Project>
